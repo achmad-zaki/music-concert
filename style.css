@@ -95,7 +95,7 @@ p {
 }
 
 /* humberger animation */
-.navbar-toggler {
+/* .navbar-toggler {
     position: relative;
     width: 50px;
     height: 40px;
@@ -166,7 +166,7 @@ p {
     top: 15px;
     width: 0%;
     left: 10%;
-}
+} */
 /* end humberger */
 /* end navbar */
 
@@ -219,6 +219,7 @@ p {
 /* category */
 #category {
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 .color-explore {
@@ -273,7 +274,7 @@ p {
 }
 /* end about */
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 576px) {
     .navbar {
         background-color: var(--color-blue);
     }
