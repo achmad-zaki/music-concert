@@ -297,7 +297,7 @@ p {
 }
 /* end about */
 
-@media (max-width: 575.98px) {
+@media only screen and (max-width: 400px) {
     .navbar {
         background-color: var(--color-blue);
     }
@@ -337,12 +337,12 @@ p {
     }
 
     .image-confetti-category img:nth-child(1) {
-        top: -30%;
+        top: -5%;
     }
     
     .image-confetti-category img:nth-child(2) {
-        left: 30%;
-        bottom: -20%;
+        left: -10%;
+        bottom: -8%;
     }
     
     .image-confetti-category img:nth-child(3) {
@@ -364,9 +364,9 @@ p {
     }
 
     .image-confetti-about img:nth-child(1) {
-        top: 20%;
-        left: -15%;
-        width: 35%;
+        top: 30%;
+        left: -10%;
+        width: 30%;
     }
 
     .text-about p {
@@ -375,14 +375,14 @@ p {
     }
 }
 
-@media (max-width: 767.98px) {
+/* @media only screen and (max-width: 767.98px) {
     .image-confetti-category img:nth-child(1) {
         top: -5%;
         left: -5%;
     }
     
     .image-confetti-category img:nth-child(2) {
-        bottom: -50%;
+        bottom: -7%;
         left: -5%;
     }
     
@@ -398,12 +398,12 @@ p {
 
     .image-confetti-about img:nth-child(1) {
         top: 30%;
-        left: -20%;
+        left: -10%;
         width: 30%;
     }
 }
 
-@media (max-width: 991.98px) {
+@media only screen and (max-width: 991.98px) {
     .image-confetti-category img:nth-child(1) {
         top: -5%;
         left: -5%;
@@ -423,4 +423,4 @@ p {
         right: 1%;
         bottom: 1%;
     }
-}
+} */
