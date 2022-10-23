@@ -54,7 +54,7 @@
         <div class="container">
             <div class="wrapper">
                 <div class="text-title text-center">
-                    <h1 id="typewriter"></h1>
+                    <h1 id="typewriter">The Best Experience Of</h1>
                     <h1><span class="color-music">Music</span> in <span id="year"></span></h1>
                     <p class="py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Suspendisse vitae ligula placerat, eleifend ex non, vehicula libero. 
@@ -72,11 +72,11 @@
     <!-- category -->
     <section id="category">
         <div class="container">
-            <div class="wrapper position-relative">
+            <div class="wrapper">
                 <div class="title">
                     <h3><span class="color-explore">Explore</span> By Category</h3>
                 </div>
-                <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-3 mt-5">
+                <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-3 mt-5 position-relative">
                     <div class="col">
                         <div class="card card-rock card-custom-category">
                             <img src="asset/Icons/Guitar.png" class="w-40 ms-3 img-logo" width="40" alt="">
@@ -122,11 +122,13 @@
                             </div>
                         </div>
                     </div>
+                    <div class="image-confetti-category">
+                        <img src="asset/Icons/Confetti.png" class="position-absolute" alt="">
+                        <img src="asset/Icons/Confetti 2.png" class="position-absolute" alt="">
+                        <img src="asset/Icons/Confetti 3.png" class="position-absolute" alt="">
+                        <img src="asset/Icons/Confetti 4.png" class="position-absolute" alt="">
+                    </div>
                 </div>
-                <img src="asset/Icons/Confetti.png" class="position-absolute top-50 start-0 translate-middle" alt="">
-                <img src="asset/Icons/Confetti 2.png" class="position-absolute top-100 start-0 translate-middle" alt="">
-                <img src="asset/Icons/Confetti 3.png" class="position-absolute top-50 start-100 translate-middle" alt="">
-                <img src="asset/Icons/Confetti 4.png" class="position-absolute top-100 start-100 translate-middle" alt="">
             </div>
         </div>
     </section>
@@ -136,7 +138,7 @@
     <section id="about" class="position-relative">
         <div class="container">
             <div class="wrapper">
-                <div class="row g-0 d-flex align-items-center">
+                <div class="row g-0 d-flex align-items-center position-relative">
                     <div class="col-md-6">
                         <img src="asset/image/Images.png" class="w-75 d-block mx-auto" alt="">
                     </div>
@@ -147,13 +149,15 @@
                                 elit sodales, tincidunt nunc non, maximus lacus. Fusce a augue sed dolor auctor iaculis vitae id mauris. Integer ut lectus non neque suscipit luctus. Mauris et erat id ipsum condimentum cursus. Sed tempus enim non massa mattis iaculis. 
                                 In quis massa risus
                             </p>
-                            <div class="button pt-3">
-                                <div class="btn btn-custom-primary shadow">Learn More<img src="asset/Icons/arrow.png" class="ms-4" alt=""></div>
+                            <div class="button pt-lg-3">
+                                <div class="btn btn-custom-primary shadow">Learn More<img src="asset/Icons/arrow.png" class="ms-3" alt=""></div>
                             </div>
                         </div>
                     </div>
+                    <div class="image-confetti-about">
+                        <img src="asset/Icons/Confetti 5.png" class="position-absolute" alt="">
+                    </div>
                 </div>
-                <img src="asset/Icons/Confetti 5.png" class="position-absolute top-50 start-0" alt="">
             </div>
         </div>
     </section>
@@ -161,7 +165,7 @@
 
     <script src="script.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <script>
+    <!-- <script>
         new Typewriter('#typewriter', {
         strings: ['The Best Experience Of'],
         autoStart: true,
@@ -169,7 +173,7 @@
         delay: 100,
         pauseFor: 3000,
         });
-    </script>
+    </script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- <script>
         $(document).ready(function(){

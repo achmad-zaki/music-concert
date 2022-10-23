@@ -19,7 +19,7 @@ body {
 /* utilities */
 h1 {
     font-weight: 600;
-    font-size: 62px;
+    font-size: 72px;
 }
 
 h3 {
@@ -35,6 +35,7 @@ h5 {
 p {
     font-weight: 400;
     font-family: 'Raleway', sans-serif;
+    font-size: 16px;
 }
 
 .w-40 {
@@ -190,7 +191,6 @@ p {
 
 .text-title p {
     color: var(--color-white);
-    font-size: 24px;
     max-width: 80%;
     margin: auto;
 }
@@ -219,7 +219,6 @@ p {
 /* category */
 #category {
     min-height: 100vh;
-    overflow-x: hidden;
 }
 
 .color-explore {
@@ -254,6 +253,25 @@ p {
 .card-jazz {
     background-color: #F3F9FF;
 }
+
+.image-confetti-category img:nth-child(1) {
+    top: -10%;
+}
+
+.image-confetti-category img:nth-child(2) {
+    bottom: -15%;
+    left: 10%;
+}
+
+.image-confetti-category img:nth-child(3) {
+    right: 1%;
+    bottom: 90%;
+}
+
+.image-confetti-category img:nth-child(4) {
+    right: 1%;
+    bottom: 5%;
+}
 /* end category */
 
 /* about */
@@ -272,9 +290,14 @@ p {
 .text-about p {
     line-height: 24px;
 }
+
+.image-confetti-about img:nth-child(1) {
+    top: 70%;
+    left: -10%;
+}
 /* end about */
 
-@media screen and (max-width: 576px) {
+@media (max-width: 575.98px) {
     .navbar {
         background-color: var(--color-blue);
     }
@@ -289,7 +312,115 @@ p {
         padding: 10px;
     }
 
-    .button {
+    .text-title h1 {
+        font-size: 52px;
+    }
 
+    .text-title p {
+        font-size: 14px;
+    }
+
+    .btn.btn-custom-danger {
+        background-color: var(--color-red);
+        font-weight: 600;
+        font-size: 15px;
+        padding: 10px 20px;
+        color: var(--color-white);
+        border-radius: 8px;
+    }
+    
+    .btn-play {
+        text-decoration: none;
+        color: var(--color-white);
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .image-confetti-category img:nth-child(1) {
+        top: -30%;
+    }
+    
+    .image-confetti-category img:nth-child(2) {
+        left: 30%;
+        bottom: -20%;
+    }
+    
+    .image-confetti-category img:nth-child(3) {
+        right: 1%;
+        bottom: 95%;
+    }
+    
+    .image-confetti-category img:nth-child(4) {
+        right: 1%;
+        bottom: 1%;
+    }
+
+    .btn.btn-custom-primary {
+        background-color: var(--color-blue);
+        color: var(--color-white);
+        font-size: 15px;
+        padding: 10px 20px;
+        border-radius: 8px;
+    }
+
+    .image-confetti-about img:nth-child(1) {
+        top: 20%;
+        left: -15%;
+        width: 35%;
+    }
+
+    .text-about p {
+        line-height: 24px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .image-confetti-category img:nth-child(1) {
+        top: -5%;
+        left: -5%;
+    }
+    
+    .image-confetti-category img:nth-child(2) {
+        bottom: -50%;
+        left: -5%;
+    }
+    
+    .image-confetti-category img:nth-child(3) {
+        right: 1%;
+        bottom: 95%;
+    }
+    
+    .image-confetti-category img:nth-child(4) {
+        right: 1%;
+        bottom: 1%;
+    }
+
+    .image-confetti-about img:nth-child(1) {
+        top: 30%;
+        left: -20%;
+        width: 30%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .image-confetti-category img:nth-child(1) {
+        top: -5%;
+        left: -5%;
+    }
+    
+    .image-confetti-category img:nth-child(2) {
+        bottom: -15%;
+        left: -5%;
+    }
+    
+    .image-confetti-category img:nth-child(3) {
+        right: 1%;
+        bottom: 95%;
+    }
+    
+    .image-confetti-category img:nth-child(4) {
+        right: 1%;
+        bottom: 1%;
     }
 }
